@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409768197958",
+    "firebase_url": "https://talentx-app-firebase.firebaseio.com",
+    "project_id": "talentx-app-firebase",
+    "storage_bucket": "talentx-app-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409768197958:android:96d8394b0fce075c",
+        "android_client_info": {
+          "package_name": "com.example.rathorekaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409768197958-k4v6trnccfjligkq3vrvgufgmm99asdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgyuOwIV3W167E8H5dbRV6ishGEQ6PKKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409768197958-k4v6trnccfjligkq3vrvgufgmm99asdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

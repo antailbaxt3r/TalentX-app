@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bgcolor"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:title="@string/register"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:duration="1000"
+            android:id="@+id/shimmer_container_register">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_autorenew_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:foregroundTint="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/just_a_moment"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <include layout="@layout/content_register"
+        android:id="@+id/content_register"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>
